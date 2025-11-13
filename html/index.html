@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mundo do Xadrez</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <!-- CSS personalizado -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Mundo do Xadrez</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+          <li class="nav-item"><a class="nav-link" href="#historia">História</a></li>
+          <li class="nav-item"><a class="nav-link" href="#pecas">Peças</a></li>
+          <li class="nav-item"><a class="nav-link" href="#curiosidades">Curiosidades</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Início -->
+  <section id="inicio" class="text-center text-light d-flex align-items-center justify-content-center">
+    <div class="overlay"></div>
+    <div class="content">
+      <h1 class="display-4">Bem-vindo ao Mundo do Xadrez</h1>
+      <p class="lead">Um jogo de estratégia, paciência e genialidade</p>
+    </div>
+  </section>
+
+  <!-- História -->
+  <section id="historia" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">A História do Xadrez</h2>
+      <p class="text-center mx-auto w-75">
+        O xadrez é um dos jogos mais antigos do mundo, surgido há mais de 1500 anos na Índia, onde era chamado de "Chaturanga".
+        Com o tempo, espalhou-se pelo Oriente Médio e pela Europa, tornando-se o jogo de tabuleiro mais popular do planeta.
+        Muito mais que um passatempo, o xadrez é uma arte, uma ciência e um esporte, que desenvolve o raciocínio, a memória e a concentração.
+      </p>
+    </div>
+  </section>
+
+  <!-- Peças -->
+  <section id="pecas" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5 text-light">As Peças do Jogo</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 text-center">
+            <img src="imagens/pecarei.png" class="card-img-top mx-auto peca-img" alt="Rei">
+            <div class="card-body">
+              <h5 class="card-title">Rei</h5>
+              <p class="card-text">A peça mais importante. Se o rei for capturado (xeque-mate), o jogo termina.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 text-center">
+            <img src="imagens/pecarainha (2).png" class="card-img-top mx-auto peca-img" alt="Rainha">
+            <div class="card-body">
+              <h5 class="card-title">Rainha</h5>
+              <p class="card-text">A peça mais poderosa do tabuleiro, movimenta-se em todas as direções.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 text-center">
+            <img src="imagens/pecatorre (2).png" class="card-img-top mx-auto peca-img" alt="Torre">
+            <div class="card-body">
+              <h5 class="card-title">Torre</h5>
+              <p class="card-text">Move-se em linhas retas, horizontais ou verticais, dominando grandes áreas.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Curiosidades -->
+  <section id="curiosidades" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Curiosidades do Xadrez</h2>
+      <ul class="list-group list-group-flush w-75 mx-auto">
+        <li class="list-group-item">♟️ Existem mais de 10<sup>43</sup> possíveis posições no xadrez.</li>
+        <li class="list-group-item">🧠 Jogar xadrez regularmente melhora a memória e o raciocínio lógico.</li>
+        <li class="list-group-item">🌍 O primeiro campeonato mundial oficial aconteceu em 1886.</li>
+        <li class="list-group-item">👑 Garry Kasparov foi um dos campeões mais jovens da história, com apenas 22 anos.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="text-center text-light py-3 bg-dark">
+    <p>© 2025 Mundo do Xadrez — Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
